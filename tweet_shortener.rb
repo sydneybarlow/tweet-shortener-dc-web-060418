@@ -10,6 +10,8 @@ def word_substituter(tweet)
     new_array = array.map do |word|
       if dictionary.keys.include?(word)
         dictionary[word]
+      else dictionary.keys
+        word
       end  
     end
   new_array
