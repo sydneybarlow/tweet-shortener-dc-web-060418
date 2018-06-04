@@ -11,10 +11,10 @@ def word_substituter(tweet)
       if dictionary.keys.include?(word)
         dictionary[word]
       else dictionary.keys
-        word
+        word 
       end  
     end
-  new_array
+  new_array.join(" ")
 end  
 
 
