@@ -9,7 +9,7 @@ def word_substituter(tweet)
   array = tweet.split
     new_array = array.map do |word|
       binding.pry
-      if word.include? = dictionary.key
+      if word.include?(dictionary.key)
         dictionary.value
       end  
     end
